@@ -149,6 +149,91 @@
     background: #FF5400;
 }
 
+/* main section two style */
+
+.section-two-content {
+    text-align: center;
+}
+
+.section-two-container {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-two-description {
+    margin-left: 320px;
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.main-section-two {
+    margin: 100px 135px;
+}
+
+.row1 {
+    border-radius: 16px;
+}
+
+.row1 img {
+    width: 630px;
+    height: 400px;
+
+}
+
+.row1-img {
+    margin-left: 30px;
+}
+
+.row2 {
+    margin-top: 30px;
+    border-radius: 16px;
+}
+
+.row2-img1 {
+    width: 400px;
+    height: 286px;
+
+}
+
+.row2-img2 {
+    width: 525px;
+    height: 286px;
+    margin-left: 30px;
+}
+
+.row2-img3 {
+    width: 300px;
+    height: 286px;
+    margin-left: 30px;
+}
+
+.row3 {
+    border-radius: 16px;
+    margin-top: 30px;
+}
+
+.row3-img1 {
+    width: 520px;
+    height: 300px;
+
+}
+
+.row3-img2 {
+    margin-left: 30px;
+    width: 740px;
+    height: 300px;
+}
+
+
+
+
+
+
 
 
 /* responsive for mobile device */
@@ -168,6 +253,7 @@
         margin-left: 50px;
         margin-right: 50px;
     }
+
     .banner-container {
         font-size: 20px;
         padding-top: 30px;
@@ -188,28 +274,83 @@
         margin-left: 150px;
         padding-left: 10px;
     }
-    .banner-input-background, .input-file{
-        margin-top: 5px;
-    }
-    .banner-input-background, .find-now{
+
+    .banner-input-background,
+    .input-file {
         margin-top: 5px;
     }
 
-    .main-section-one{
+    .banner-input-background,
+    .find-now {
+        margin-top: 5px;
+    }
+
+    .main-section-one {
         flex-direction: column;
         margin-left: 50px;
         margin-right: 50px;
     }
-   
-    .tours-container{
+
+    .tours-container {
         font-size: 20px;
         width: 180px;
         height: 25px;
     }
-    .tours-description{
+
+    .tours-description {
         font-size: 16px;
         width: 450px;
     }
+
+
+    .main-section-two{
+        margin-left: 30px;
+    }
+    .section-two-container {
+        margin-left: 20px;
+        width: 600px;
+    }
+    .section-two-description{
+        margin-left: 50px;
+        width: 500px;
+    }
     
+
+    .row1-img {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+
+    .row2-img1 {
+        width: 630px;
+        height: 400px;
+    }
+
+    .row2-img2 {
+        width: 630px;
+        height: 400px;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+
+    .row2-img3 {
+        width: 630px;
+        height: 400px;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+
+    .row3-img1 {
+        width: 630px;
+        height: 400px;
+    }
+
+    .row3-img2 {
+        width: 630px;
+        height: 400px;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
 
 }
